@@ -4,5 +4,4 @@ langchain_core
 langchain_community
 langchain_chroma
 python-dotenv
-chromadb
-pysqlite3-binary>=3.35.0
+chromadb==0.4.15
