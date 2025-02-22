@@ -1,0 +1,13 @@
+prefix=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2
+exec_prefix=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2
+libdir=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2/lib
+sharedlibdir=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2/lib
+includedir=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

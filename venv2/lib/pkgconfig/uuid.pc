@@ -1,0 +1,11 @@
+prefix=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2
+exec_prefix=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2
+libdir=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2/lib
+includedir=/home/user/GENAI/KrishNaik/LangChain/projects/conv_qa_chatbot/venv2/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
