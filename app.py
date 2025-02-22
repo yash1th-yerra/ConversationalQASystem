@@ -15,6 +15,11 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 import os 
 from dotenv import load_dotenv
 load_dotenv()
+import sys
+import pysqlite3
+
+sys.modules["sqlite3"] = pysqlite3
+
 
 os.environ["HF_TOKEN"] = os.getenv("HUGGINGFACEHUB_ACCESS_TOKEN")
 embeddings =HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
